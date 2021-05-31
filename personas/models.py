@@ -7,3 +7,4 @@ class Persona(models.Model):
     apellidos = models.CharField(max_length=100)
     edad = IntegerField()
     donador = BooleanField()
+    correo = models.EmailField()
