@@ -1,0 +1,25 @@
+header{
+    background-color: gray;
+    text-align: right;
+    padding : 30px;
+}
+
+nav{
+    background-color: wheat;
+    float:left;
+    padding: 20px;
+    width: 20%;
+}
+
+article{
+    background-color:blanchedalmond;
+    float: right;
+    padding: 20px;
+    width: 30%;
+}
+
+footer{
+    background-color: black;
+    padding: 20%;
+    text-align: center;
+}
