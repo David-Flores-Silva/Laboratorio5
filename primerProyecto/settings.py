@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATICFILES_DIRS=['C:/Users/AdminPC/A_David/Laboratorio5/template/static']
 
 # Application definition
 
