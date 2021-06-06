@@ -1,10 +1,10 @@
-{% load static from staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>  
         <meta charset="UTF-8">
         <link rel="stylesheet" href="{% static '/casa.css' %"}>
-        <title>Document</title>
+        <title>Documento home</title>
     </head>
 
     <body>
@@ -15,11 +15,13 @@
 
 
         <section>
-            <nav>
-                <ul><a href="http.127.0.0.1:8000/menu/"> 1. Menu </a></ul>
-                <ul><a href="http.127.0.0.1:8000/login/"> 2. Login </a></ul>
-                <ul><a href="http.127.0.0.1:8000/gamer/"> 3. game </a></ul>
-            </nav>
+            {% block opciones %}
+                <nav>
+                    <ul><a href="http://127.0.0.1:8000/menu"> 1. Menu </a></ul>
+                    <ul><a href="http://127.0.0.1:8000/login"> 2. Login </a></ul>
+                    <ul><a href="http://127.0.0.1:8000/gamer"> 3. game </a></ul>
+                </nav>
+            {% endblock %}
 
             <article>
                 <h1> Esta sera la seccion que se reemplazara con el contenido </h1>
