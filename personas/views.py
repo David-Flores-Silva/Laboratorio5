@@ -9,8 +9,8 @@ def opcion1(request):
     return render(request, "one.html", {})
     
 def opcion2(request):
-    return render(request, "home.html", {})
+    return render(request, "two.html", {})
     
 def opcion3(request):
-    return render(request, "home.html", {})
+    return render(request, "three.html", {})
     
