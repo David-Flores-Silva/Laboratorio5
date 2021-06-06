@@ -10,19 +10,22 @@
     <body>
        
         <header>
-            <h1> LABORATORIO 6 DE PYTHON CON DJANGO </h1>
+            <h1> LABORATORIO 6 DE PYTHON CON DJANGO </h1><br>
         </header>
 
 
         <section>
             <nav>
-                <ul><a href="http.127.0.0.1:8000/holaMundo/"> 1. Menu </a></ul>
-                <ul><a href="http.127.0.0.1:8000/holaMundo/"> 2. Login </a></ul>
-                <ul><a href="http.127.0.0.1:8000/holaMundo/"> 3. game </a></ul>
+                <ul><a href="http.127.0.0.1:8000/menu/"> 1. Menu </a></ul>
+                <ul><a href="http.127.0.0.1:8000/login/"> 2. Login </a></ul>
+                <ul><a href="http.127.0.0.1:8000/gamer/"> 3. game </a></ul>
             </nav>
 
             <article>
                 <h1> Esta sera la seccion que se reemplazara con el contenido </h1>
+                {% block name %}
+                    reemplazara
+                {% endblock %}
             </article>
 
         </section>
