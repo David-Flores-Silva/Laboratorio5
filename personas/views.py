@@ -6,7 +6,7 @@ def hola(request, *args, **kwargs):
     return render(request, "home.html", {})
 
 def opcion1(request):
-    return render(request, "home.html", {})
+    return render(request, "one.html", {})
     
 def opcion2(request):
     return render(request, "home.html", {})
